@@ -16,7 +16,7 @@ jobs:
       # Ref: https://docs.vyos.io/en/latest/contributing/build-vyos.html#build
       image: vyos/vyos-build:equuleus
       env:
-        TZ: Asia/Tokyo
+        TZ: Asia/Shanghai
       options: --privileged
       
 
